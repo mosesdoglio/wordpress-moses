@@ -1,0 +1,77 @@
+        body{
+        	background-image: url(img/fundo.png);
+        	background-repeat: no-repeat;
+            margin: 0px;
+            font-family: arial;
+        }
+        .container{
+            margin: auto;
+            max-width: 900px;
+        }
+
+        header{
+            background-color: #000;
+            background-image: url(img/witcher.png);
+            background-position: none;
+            color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: 200px;
+            text-align: center;
+            line-height: 180px;
+        }
+
+        .menu-menu-principal-container ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .menu-menu-principal-container ul li{
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .menu-menu-principal-container ul li:hover{
+            background-color: #bbb;
+        }
+        .menu-menu-principal-container ul li a{
+            text-decoration: none;
+            color: #000;
+        }
+        .menu{
+            border-bottom: 1px solid #999;
+        }
+
+        .sidebar{
+            display: inline-block;
+            width:  200px;
+            vertical-align: top;
+        }
+
+        .content{
+            display: inline-block;
+            width:  650px;
+            vertical-align: top;
+            min-height: 500px;
+        }
+
+           }
+	   .reply{
+
+	  }
+
+	   .comment{
+	  	list-style: none;
+	  	padding: 20px;
+	  	margin-bottom: 20px;
+	  	background-color: #eeeeee;
+	  }
+
+	   .comment .comement{
+	  	margin-top: 20px;
+	  	list-style: none;
+	  	background-color: #eeeeee;
+}
+
+       
